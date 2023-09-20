@@ -68,14 +68,14 @@
       "type": "string",
       "defaultValue": "https://github.com/chardcyber/cosmosdb-chatgpt.git",
       "metadata": {
-        "description": "Git repository URL for the chat application. This defaults to the [`azure-samples/cosmosdb-chatgpt`](https://github.com/azure-samples/cosmosdb-chatgpt) repository."
+        "description": "Git repository URL for the chat application. This defaults to the [`chardcyber/cosmosdb-chatgpt`](https://github.com/chardcyber/cosmosdb-chatgpt) repository."
       }
     },
     "appGetRepositoryBranch": {
       "type": "string",
       "defaultValue": "main",
       "metadata": {
-        "description": "Git repository branch for the chat application. This defaults to the [**main** branch of the `azure-samples/cosmosdb-chatgpt`](https://github.com/azure-samples/cosmosdb-chatgpt/tree/main) repository."
+        "description": "Git repository branch for the chat application. This defaults to the [**main** branch of the `chardcyber/cosmosdb-chatgpt`](https://github.com/chardcyber/cosmosdb-chatgpt/tree/main) repository."
       }
     }
   },
@@ -129,7 +129,6 @@
           "defaultConsistencyLevel": "Session"
         },
         "databaseAccountOfferType": "Standard",
-        "enableFreeTier": "[variables('cosmosDbSettings').enableFreeTier]",
         "locations": [
           {
             "failoverPriority": 0,
